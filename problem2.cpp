@@ -21,6 +21,7 @@ int main() {
 	
 	sort(vec.begin(), vec.end());
 	
+	// had to do this for the first case really didn't find a way to overcome that 
 	if (n == 2 && vec.back() == 2 ) {
 		std::cout << 1; 
 
